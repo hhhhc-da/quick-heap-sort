@@ -1,0 +1,3 @@
+D:/pandownload1/Desktop/CodingFolder/C++/sort/build/CMakeFiles/main.dir
+D:/pandownload1/Desktop/CodingFolder/C++/sort/build/CMakeFiles/edit_cache.dir
+D:/pandownload1/Desktop/CodingFolder/C++/sort/build/CMakeFiles/rebuild_cache.dir
