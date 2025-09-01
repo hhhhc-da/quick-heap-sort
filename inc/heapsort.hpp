@@ -1,8 +1,5 @@
 #include <base.hpp>
 
-#undef TAG
-#define TAG "NANOKA_HEAPSORT"
-
 // 极力不推荐在头文件中使用 using namespace std
 using namespace std;
 
@@ -77,6 +74,7 @@ public:
 private:
     vector<int> arr;
     mutex mtx;
+    string TAG = "HEAP SORT";
 };
 
 class HeapSort{
@@ -85,11 +83,7 @@ public:
 
     // 打印数组
     inline const void printArray(void) const {
-        cout << "(" << TAG << ") Array: ";
-        for (const auto &num : arr.arr){
-            cout << num << " ";
-        }
-        cout << endl;
+        arr.printArray();
     }
     // 设置数组
     inline void setArray(const vector<int> &arr){
@@ -122,4 +116,5 @@ private:
     void heapSort(int end);
     HeapTree arr;
     mutex mtx;
+    string TAG = "HEAP SORT";
 };

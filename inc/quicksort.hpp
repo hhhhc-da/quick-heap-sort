@@ -1,8 +1,5 @@
 #include <base.hpp>
 
-#undef TAG
-#define TAG "NANOKA_QUICKSORT"
-
 // 极力不推荐在头文件中使用 using namespace std
 using namespace std;
 
@@ -52,4 +49,5 @@ private:
     void quickSort(int low, int high);
     vector<int> arr;
     mutex mtx;
+    string TAG = "QUICK SORT";
 };
